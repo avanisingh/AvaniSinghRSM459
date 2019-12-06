@@ -63,7 +63,11 @@ ol, ul {
 /* thinking */
 
 .thinking h1 {
-	font-size: 1em;
+	font-size: 2em;
+}
+
+.thinking p {
+	margin-right: 5cm;
 }
 
 blockquote, q {
