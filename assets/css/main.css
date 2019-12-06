@@ -33,6 +33,29 @@ body {
 	line-height: 1;
 }
 
+.example_a {
+	color: rgb(8, 8, 8) !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: rgb(96, 191, 204);
+	padding: 50px;
+	border-radius: 5px;
+	display: inline-block;
+	border: 50px;
+	margin: 2.5cm;
+	width: 9cm;
+	transition: all 0.4s ease 0s;
+}
+
+.example_a:hover {
+	background: #434343;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
+
 ol, ul {
 	list-style: none;
 }
